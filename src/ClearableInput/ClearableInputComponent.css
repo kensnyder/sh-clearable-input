@@ -1,0 +1,21 @@
+.ClearableInput {
+	display: inline-block;
+	border: 1px solid #777;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.ClearableInput input {
+	position: relative;
+	padding: 0;
+	border: none;
+	padding: 8px 0 8px 15px;
+	font-size: 15px;
+	outline: none;
+}
+.ClearableInput .fas {
+	color: #999;
+	padding-right: 13px;
+}
+.ClearableInput .fa-times-circle {
+	cursor: pointer;
+}
